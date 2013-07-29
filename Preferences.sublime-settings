@@ -54,7 +54,7 @@
 	"scroll_speed": 2,
 	"show_full_path": true,
 	"tab_size": 4,
-	"theme": "Nil.sublime-theme",
+	"theme": "ProKit.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
