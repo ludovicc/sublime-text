@@ -2,14 +2,16 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Appealr Color Scheme/appealr-color-scheme.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
 	"draw_indent_guides": true,
 	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
-		"*.lib",
-		"*.log"
+		".gitkeep",
+		"dump.rdb"
 	],
 	"folder_exclude_patterns":
 	[
@@ -17,19 +19,28 @@
 		".bundle",
 		".sass-cache",
 		".svn",
-		".hg"
+		".hg",
+		".idea",
+		".idea_modules",
+		"coverage",
+		"log",
+		"target",
+		"tmp"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage",
-		"SublimeLinter"
+		"Tomorrow Color Schemes",
+		"SublimeLinter",
+		"Web Inspector"
 	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
+	"line_padding_bottom": 2,
+	"line_padding_top": 1,
 	"match_brackets": true,
 	"match_brackets_angle": true,
 	"match_brackets_braces": true,
@@ -38,12 +49,14 @@
 	"open_files_in_new_window": false,
 	"remember_open_files": true,
 	"remember_open_folders": true,
+	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"scroll_speed": 2,
 	"show_full_path": true,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "Nil.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"wide_caret": true,
 	"word_wrap": true
